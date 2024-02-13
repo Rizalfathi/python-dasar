@@ -1,13 +1,16 @@
-a, b, c = 1, 2, "Wow Amazing"
-print("a:", a)
-print("b:", b)
-print("c:", c)
+def new_func1():
+    a = [1, 2, 3, 4, 5]
+    b = a[1:4]
 
-d = e = f = 10
+    print(b)
 
-print("d:", d)
-print("e:", e)
-print("f:", f)
+    def new_func(a):
+        c = a[:3]
+        print(c)
 
-print(type(a))
-print(type(c))
+        d = a[3:]
+        print(d)
+
+    new_func(a)
+
+new_func1()

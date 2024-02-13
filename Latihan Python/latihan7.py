@@ -1,17 +1,10 @@
-nilai = int(input('Masukkan Nilai: '))
+keranjang_buah = ['nanas', 'manggis', 'alpukat', 'semangka', 'mangga']
 
-if nilai >= 90:
-  print('Predikat A')
-  print('Kerja Baguss 👍👌')
-elif nilai >= 80:
-  print('Predikat b')
-  print('Lebih Ditingkatkan Lagi Anak Muda ✅')
-elif nilai >= 60:
-  print('Predikat C')
-  print('Sudah Diambang Kedunguan Inimah wir 🤏')
-elif nilai >= 40:
-  print('Predikat D')
-  print('Semangat, semangat ganti sekolah dek ☠')
-else:
-  print('Predikat E')
-  print('Hanya Bisa Tersenyum 😅')
+# for i, buah in enumerate(keranjang_buah, 1):
+#  print(i, buah)
+
+# for i in range(1,6):
+#  print('perulangan ke -', i)
+
+for i in range(2, 12, 2):
+ print('perulangan ke -', i)

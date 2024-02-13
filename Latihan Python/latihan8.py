@@ -22,12 +22,25 @@
 # persegi_kecil = luas_persegi(50)
 
 
-kota = 'London'
+# kota = 'London'
 
-def cek_kota():
- print(kota)
+# def cek_kota():
+#  print(kota)
 
-print('[Panggil secara langsung]', kota)
-print('[Panggil fungsi cek_kota]', end=' ')
+# print('[Panggil secara langsung]', kota)
+# print('[Panggil fungsi cek_kota]', end=' ')
 
-cek_kota()
+# cek_kota()
+
+
+kota, provinsi = 'London', 'United Kingdom'
+
+def contoh_var_lokal():
+ provinsi = 'England'
+ print(kota, provinsi)
+ 
+print('[Panggil fungsi contoh_var_lokal()]')
+contoh_var_lokal()
+
+print('\n[Panggil variabel secara langsung]')
+print(kota, provinsi)

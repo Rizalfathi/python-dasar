@@ -5,4 +5,4 @@ animals.append("Panthers")
 animals.sort()
 
 for animal in animals:
-  print(f"{animal}")
+  print(animal)

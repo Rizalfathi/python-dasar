@@ -1,4 +1,4 @@
-from matematika import luas_persegi, luas_lingkaran
+from matematika import luas_persegi
 
 print(f'Luas Lingkaran: {luas_lingkaran(20)}')
 
